@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>تحميل التطبيق</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+
+<style>
+:root {
+    --primary: #2563eb;
+    --primary-hover: #1e40af;
+    --bg: linear-gradient(135deg, #e0e7ff, #f8fafc);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Cairo', sans-serif;
+    background: var(--bg);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    background: rgba(255,255,255,0.9);
+    backdrop-filter: blur(12px);
+    padding: 50px 40px;
+    border-radius: 24px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+    text-align: center;
+    max-width: 420px;
+    width: 90%;
+    transition: 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.title {
+    font-size: 26px;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 18px;
+    color: #4b5563;
+    margin-bottom: 25px;
+}
+
+.description {
+    font-size: 16px;
+    color: #6b7280;
+    margin-bottom: 35px;
+}
+
+.download-btn {
+    display: inline-block;
+    padding: 15px 40px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background: var(--primary);
+    border-radius: 14px;
+    text-decoration: none;
+    transition: 0.3s ease;
+    box-shadow: 0 10px 20px rgba(37,99,235,0.25);
+}
+
+.download-btn:hover {
+    background: var(--primary-hover);
+    box-shadow: 0 15px 25px rgba(30,64,175,0.35);
+}
+
+.footer {
+    margin-top: 25px;
+    font-size: 13px;
+    color: #9ca3af;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+    <div class="title">يما على زين لي دخل 🫠</div>
+    <div class="subtitle">صح فطورك! 🙂</div>
+    <div class="description">
+    اكليكي على الوسمها لتحت ونستاليه 👇
+    </div>
+
+    <!-- غير اسم الملف هنا إذا كان مختلف -->
+    <a href="Truecaller_v26.7.6_Premium.apk" download class="download-btn">
+        تحميل🧘
+    </a>
+
+    <div class="footer">
+        © 2026 🙂جميع الحقوق غير محفوظة
+      <br>
+      اك راه غالبني رمضان ✨
+    </div>
+</div>
+
+</body>
+</html>
